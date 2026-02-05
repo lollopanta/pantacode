@@ -101,6 +101,13 @@ export const editorBracketPairGuideActiveBackground6 = registerColor('editorBrac
 export const editorUnicodeHighlightBorder = registerColor('editorUnicodeHighlight.border', editorWarningForeground, nls.localize('editorUnicodeHighlight.border', 'Border color used to highlight unicode characters.'));
 export const editorUnicodeHighlightBackground = registerColor('editorUnicodeHighlight.background', editorWarningBackground, nls.localize('editorUnicodeHighlight.background', 'Background color used to highlight unicode characters.'));
 
+export const editorLivingCodeRecentChangeBorder = registerColor('editor.livingCode.recentChangeBorder', {
+	dark: '#4FC3F7',
+	light: '#0288D1',
+	hcDark: '#4FC3F7',
+	hcLight: '#0288D1'
+}, nls.localize('editorLivingCodeRecentChangeBorder', 'Border color for recently changed code highlighted by Living Code.'));
+
 
 // contains all color rules that used to defined in editor/browser/widget/editor.css
 registerThemingParticipant((theme, collector) => {
